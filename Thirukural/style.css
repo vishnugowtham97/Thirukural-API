@@ -1,0 +1,44 @@
+html,
+body {
+  position: relative;
+  background-image: url("https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  text-align: center;
+
+  font-size:x-large;
+}
+ .container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#kural-container {
+ margin-left: 25%;
+}
+
+.author {
+  text-align: end;
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 990px) {
+  #kural-container {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #kural-container {
+    font-size: 0.5rem;
+  }
+}
+
